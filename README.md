@@ -3,27 +3,27 @@ Final Task 1: MySQL Portfolio – Company Database
 
 This portfolio covers the basics of MySQL by creating a company database. It includes writing SQL queries, setting up tables, and showing how the tables are related through schemas or ER diagrams. I’ve also included the SQL code used to build the database structure.
 
-Task 1: Employees Table employee_id: INT, auto-increment, primary key
+## Task 1: Employees Table employee_id: INT, auto-increment, primary key
 
 employee_name: VARCHAR(255), not null
 
 manager_id: INT, foreign key referencing employee_id in the same table
 
-Task 2: Departments Table department_id: INT, auto-increment, primary key
+## Task 2: Departments Table department_id: INT, auto-increment, primary key
 
 department_name: VARCHAR(255), not null
 
-Task 3: Employee_Departments Table employee_id: INT, foreign key from employees
+## Task 3: Employee_Departments Table employee_id: INT, foreign key from employees
 
 department_id: INT, foreign key from departments
 
 Composite primary key on both columns
 
-Task 4: Employee_Projects Table employee_id: INT, foreign key from employees
+## Task 4: Employee_Projects Table employee_id: INT, foreign key from employees
 
 project_name: VARCHAR(255), not null
 
-Task 5: Managers Table manager_id: INT, auto-increment, primary key
+## Task 5: Managers Table manager_id: INT, auto-increment, primary key
 
 employee_id: INT, foreign key from employees
 
