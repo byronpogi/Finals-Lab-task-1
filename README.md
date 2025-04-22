@@ -28,6 +28,7 @@ Task 5: Managers Table manager_id: INT, auto-increment, primary key
 employee_id: INT, foreign key from employees
 
 #Screenshots
+
 ![Image](https://github.com/user-attachments/assets/50639112-6ed1-4f8b-b14b-d1982d7f0f43)
 ![Image](https://github.com/user-attachments/assets/69fb4caf-91d3-4c27-b42d-db6c34c30ba1)
 ![Image](https://github.com/user-attachments/assets/3000e6ee-1729-4700-b680-bd29866bfd47)
